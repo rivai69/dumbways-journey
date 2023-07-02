@@ -5,10 +5,12 @@ p{
     font-size: 1.2rem;
 }
 .container {
-    width: 40vw;
+    width: 70vw;
     margin: 0 auto;
     padding: 2rem 3rem;
-
+    display: flex;
+    align-items: center;
+    gap: 2rem;
     margin-top: 2rem;
     background-color: #fff;
    
@@ -22,8 +24,9 @@ p{
 }
 .icons {
     display: flex;
-    justify-content: center;
-    margin: 1.4rem;
+    justify-content: start;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
     gap: 1rem;
 }
 .icon{
@@ -57,9 +60,10 @@ p{
     padding-bottom: 1rem;
     width: 100%;
     text-align: center;
-    background-color: orange;
+    background-color: black;
     color: #fff;
 }
+
 nav .list{
     display: flex;
     justify-content: space-between;
